@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.video.TVOL"  name="在线之家（1993s.top）"  version="1.0.0"  provider-name="ToufuKZ">  
+    <requires>
+        <import addon="script.module.requests" version="2.9.1" option="false" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="TVOL.py">  
+        <provides>video</provides>  
+    </extension>  
+    <extension point="xbmc.addon.metadata">  
+        <platform>all</platform>  
+        <summary>TVOL</summary>  
+        <summary lang="zh">在线之家</summary>  
+        <description>just for test</description>  
+        <description lang="zh"></description>  
+        <disclaimer>For demonstration only</disclaimer>  
+    </extension>  
+</addon> 
+
+</addons>
